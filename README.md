@@ -8,5 +8,9 @@ in C and developed in the Arduino IDE.
 
 # Video Demo
 
+
+https://github.com/Nmast78/Robotic-Arm/assets/86863161/3a7f0e5c-516c-4517-a2be-2ff4f53d876b
+
+
 # Images
 <img src="https://github.com/Nmast78/Robotic-Arm/assets/86863161/7b00cb83-e470-47fa-a252-c7b7902fd1ee" width="600" height="800">
