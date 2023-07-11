@@ -1,0 +1,59 @@
+#include <Servo.h>
+
+Servo myservo;
+Servo myservo2;
+Servo myservo3;
+Servo myservo4;
+Servo myservo5;
+
+int pos = 0;
+int pos2 = 30;
+int pos3 = 45;
+int pos4 = 0;
+int pos5 = 0;
+
+void setup() {
+  // put your setup code here, to run once:
+myservo.attach(9);
+myservo2.attach(10);
+myservo3.attach(11);
+myservo4.attach(12);
+myservo5.attach(13);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  //Servo 4
+  for(pos4 = 60; pos4 >= 0; pos4 -= 1) {
+    myservo4.write(pos4);
+    delay(30);
+  }
+
+  delay(1000);
+
+  //Servo 5
+  for(pos5 = 70; pos5 >= 0; pos5 -= 1) {
+    myservo5.write(pos5);
+    delay(30);
+  }
+
+  delay(1000);
+
+  //Servo 5
+  for(pos5 = 0; pos5 <= 70; pos5 += 1) {
+    myservo5.write(pos5);
+    delay(30);
+  }
+
+  delay(1000);
+
+  //Servo 4
+  for(pos4 = 0; pos4 <= 60; pos4 += 1) {
+    myservo4.write(pos4);
+    delay(30);
+  }
+
+  delay(1000);
+  
+}
